@@ -45,7 +45,8 @@
         ],
         "cs-check": "phpcs --colors -p",
         "cs-fix": "phpcbf --colors -p",
-        "test": "phpunit --colors=always"
+        "test": "phpunit --colors=always",
+        "serve": "php bin/cake.php server -H localhost -p 8080"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

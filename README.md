@@ -27,6 +27,28 @@ KITAYO は、ICカード（IDm）打刻を中心とした勤怠管理システ�
 - nfcpy
 - requests
 
+## 開発環境
+
+### 開発サーバ起動方法
+
+初回セットアップ：
+
+cd cakephp
+composer install
+
+開発サーバ起動：
+
+composer serve
+
+アクセス：
+
+http://localhost:8080
+
+注意：
+- ポートは 8080 を使用する
+- ポートを変更すると CSRF Cookie の問題が発生する可能性がある
+- localhost で統一してアクセスすること
+
 ## 開発ステータス
 - 現在は機能追加よりも仕様の精緻化フェーズ
 - `devPanel` / `devCreate` は `debug` 前提の制限運用
